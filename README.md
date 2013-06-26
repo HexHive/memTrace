@@ -3,6 +3,8 @@
                   ======
 
 This is lMem, a fast memory checking framework.
+For a high-level description of the framework read Usenix ATC publication:
+http://nebelwelt.net/publications/13USENIX_ATC/
 
 
 To install just do make (see INSTALL).
@@ -28,9 +30,3 @@ make documentation ...  to generate doxygen html docs
 ... and much more ...
 
 Enjoy!
-
-
-Enrico Kravina
-
-May 2012
-
