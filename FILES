@@ -1,0 +1,24 @@
+This files gives a brief summary of what the directories are:
+
+- DSL/ ... a domain specific language for embedding assembly at runtime
+          (credit to Mathias Payer, extension to 64 bit by Enrico Kravina)
+- loader/ ... a simple loader that is a (cleaner imo) reimplementation of 
+             the linux loader (credit to Tobias Hartmann)
+- progs/ ... a collection of miscellaneous test programs useful for 
+             debugging or implementing new features (by Enrico Kravina)
+- tp/ ... unit test like programs that can be checked automatically by typing
+             ./test.sh (which will run them through lMem and compare results)
+- test/ ... contains automated unit tests for checking instruction translation.
+          (by Enrico Kravina). Also contains some tests of libdetox (by Mathias
+           Payer) that would need to be adjusted.
+- microbenchmarks/  ... contains some small programs that aim to test specific
+                        performance characteristics (indirect jumps, ...)
+                        (by Mathias Payer)
+- tableGenerator/ ... automatically generates table based disassemblers for
+                      the x86 architecture. (by Mathias Payer)
+- lib/ ... the libraries that adds malloc guards for C programs 
+           and "operator new" guards for C++ programs
+- src/  ... the actual source of the lMem (by Enrico Kravina), derived
+            from libdetox (by Mathias Payer with contributions by 
+            Antonio Barresi, Marcel Wirth, Peter Suter, and Stephan Classen).
+

@@ -1,0 +1,8 @@
+These micro benchmarks test and report the overhead of all control flow transfer
+types.
+
+Make sure that the #export CFLAGS += -DHIJACKCONTROL is commented out (in
+Makedefs). The micro benchmarks start the binary translator on demand and use
+direct access to the internal data structures to get the necessary information.
+
+You can also configure the security extensions to your liking.

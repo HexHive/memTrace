@@ -1,0 +1,24 @@
+######## CONFIGURATION ###########
+include ../current.config
+
+##############################
+# Debug or production build? #
+##############################
+# set either 'DEBUG = 1' or 'PRODUCTION = 1'
+PRODUCTION = 1
+#DEBUG = 1
+
+CC=gcc
+
+ifdef DEBUG
+CFLAGS += -O0 -DDEBUG -fno-strict-aliasing -ggdb -Wall -Werror-implicit-function-declaration
+LDFLAGS = -nodefaultlibs -nostartfiles
+endif
+
+ifdef PRODUCTION
+CFLAGS += -ggdb -O2 -fno-strict-aliasing -DNDEBUG -Wall -Werror-implicit-function-declaration
+LDFLAGS = -nodefaultlibs -nostartfiles
+endif
+
+# Path to the assembly generation DSL preprocessing step
+DSL_PATH=../DSL/src/parse.py

@@ -1,0 +1,11 @@
+Tasks that are still to do, in order of importance:
+
+- Finish signal implementation
+- Some system calls could be handled better
+- Variable number of argument does not work!!!! (this is inconvenient)
+- Separate more clearly the memory tracing from the core framework
+- Implement more optimizations
+
+Minor reminders
+- action fail after interrupt fix (see string testcase)
+

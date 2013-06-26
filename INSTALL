@@ -1,0 +1,9 @@
+This file describes how to install and work with fastBT/libdetox.
+
+1.) install gcc, ...
+2.) run make  
+3.) done!
+
+run 32 bit programs by typing /path/to/lMem /the/program/name the argu ments
+
+

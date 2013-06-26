@@ -1,0 +1,5 @@
+Adjust the file Makedefs to your needs. 
+
+Type "make clean all" to generate the library.
+Type "make test" to run the unit tests.
+Type "./test.sh" to run the test programs.
