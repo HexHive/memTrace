@@ -7,7 +7,9 @@ or have a look at
 [the presentation](http://nebelwelt.net/publications/files/13ATC-presentation.pdf).
 
 
-To install just do make (see INSTALL).
+To install just do make (see [INSTALL](./INSTALL)). Please be aware
+that you likely need a Docker image from yesteryear as this software
+is from 2012/2013.
 
 To see how to use the C malloc wrapping library, see lMem/tp/wrap.c
 To see how to use the C++ new wrapping library, see lMem/tp/new.cpp
